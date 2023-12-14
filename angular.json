@@ -42,7 +42,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/gifs-app",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,12 +57,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
