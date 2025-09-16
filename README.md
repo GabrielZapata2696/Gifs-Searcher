@@ -265,7 +265,7 @@ interface GiphyItem {
 
 ## 🌐 Demo en Vivo
 
-🚀 **[Ver Demo]([https://github.com/GabrielZapata2696/Gifs-Searcher](https://nggiphy-searcher.netlify.app/#/dashboard/trending))** - Visita el repositorio para instrucciones de deployment
+🚀 **[Ver Demo](https://nggiphy-searcher.netlify.app/#/dashboard/trending)** - Visita el repositorio para instrucciones de deployment
 
 ### 📱 Capturas de Pantalla
 
