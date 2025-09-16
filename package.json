@@ -1,12 +1,55 @@
 {
-  "name": "gifs-app",
-  "version": "0.0.0",
+  "name": "angular-gifs-app",
+  "version": "1.0.0",
+  "description": "Aplicación moderna de búsqueda de GIFs desarrollada con Angular 20, Signals, Tailwind CSS y API de Giphy",
+  "main": "src/main.ts",
+  "keywords": [
+    "angular",
+    "angular20",
+    "signals",
+    "gifs",
+    "giphy-api",
+    "tailwindcss",
+    "typescript",
+    "standalone-components",
+    "lazy-loading",
+    "reactive-programming",
+    "httpclient",
+    "rxjs",
+    "spa",
+    "frontend",
+    "educational",
+    "udemy-course"
+  ],
+  "author": {
+    "name": "Estudiante Angular",
+    "email": "estudiante@example.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tu-usuario/angular-gifs-app#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tu-usuario/angular-gifs-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/angular-gifs-app/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "dev": "ng serve --open",
     "build": "ng build",
+    "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test:coverage": "ng test --code-coverage",
+    "lint": "ng lint",
+    "serve:dist": "npx http-server dist/gifs-app -p 4200",
+    "preview": "npm run build:prod && npm run serve:dist"
   },
   "prettier": {
     "overrides": [
@@ -26,7 +69,10 @@
     "@angular/forms": "^20.1.0",
     "@angular/platform-browser": "^20.1.0",
     "@angular/router": "^20.1.0",
+    "@tailwindcss/postcss": "^4.1.13",
+    "postcss": "^8.5.6",
     "rxjs": "~7.8.0",
+    "tailwindcss": "^4.1.13",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
