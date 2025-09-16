@@ -134,7 +134,7 @@ npm install
 **Opción A**: Usar la API Key incluida (para desarrollo)
 ```typescript
 // src/environments/environment.ts
-apiKey: 'ZCvw75NBolXuAvbW0PduDUixl58xib6p' // ⚠️ Solo para desarrollo
+apiKey: 'Ejemplo_API_KEY' // ⚠️ Solo para desarrollo
 ```
 
 **Opción B**: Configurar tu propia API Key
@@ -175,25 +175,6 @@ http://localhost:4200
 - **GifListItem**: Visualización individual de GIF
 - **SideMenu**: Navegación y historial
 - **Dashboard**: Layout principal
-
-## 🔄 Flujo de Datos
-
-```mermaid
-flowchart TD
-    A[Usuario busca GIF] --> B[GifService.searchGifs()]
-    B --> C[HTTP Request a Giphy API]
-    C --> D[GifMapper.mapGiphyItemsToGifArray()]
-    D --> E[Actualizar searchHistory signal]
-    E --> F[Effect: Guardar en LocalStorage]
-    E --> G[UI se actualiza automáticamente]
-```
-
-## 🧪 Testing
-
-### Ejecutar pruebas
-```bash
-npm test
-```
 
 ### Cobertura de pruebas
 ```bash
@@ -237,7 +218,7 @@ Los archivos se generan en `dist/gifs-app/`
 
 ## 🌐 API de Giphy
 
-### Endpoints Utilizados
+### Ejemplo Endpoints Utilizados
 
 ```typescript
 // Trending GIFs
@@ -282,19 +263,9 @@ interface GiphyItem {
 - **API Integration** patterns
 - **Responsive Design** con Tailwind
 
-## 🚀 Próximas Mejoras
-
-- [ ] Implementar paginación infinita
-- [ ] Agregar favoritos persistentes
-- [ ] Mejorar manejo de errores
-- [ ] Agregar modo oscuro
-- [ ] Implementar PWA features
-- [ ] Agregar animaciones de transición
-- [ ] Optimizar performance con OnPush
-
 ## 🌐 Demo en Vivo
 
-🚀 **[Ver Demo](https://github.com/GabrielZapata2696/Gifs-Searcher)** - Visita el repositorio para instrucciones de deployment
+🚀 **[Ver Demo]([https://github.com/GabrielZapata2696/Gifs-Searcher](https://nggiphy-searcher.netlify.app/#/dashboard/trending))** - Visita el repositorio para instrucciones de deployment
 
 ### 📱 Capturas de Pantalla
 
@@ -358,8 +329,8 @@ CMD ["nginx", "-g", "daemon off;"]
 
 **Gabriel Zapata**
 - 🐱 GitHub: [@GabrielZapata2696](https://github.com/GabrielZapata2696)
-- 📧 Email: gabriel.zapata.dev@gmail.com
-- 💼 LinkedIn: [Gabriel Zapata](https://linkedin.com/in/gabriel-zapata-dev)
+- 📧 Email: sr.gabrielzm@gmail.com
+- 💼 LinkedIn: [Gabriel Zapata](https://linkedin.com/in/gabriel-andres-zapata-morera)
 
 Proyecto desarrollado como parte del curso de Angular en Udemy, enfocado en las características más recientes del framework y mejores prácticas de desarrollo.
 
@@ -380,8 +351,6 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) pa
 - ✅ Modificación permitida
 - ✅ Distribución permitida
 - ✅ Uso privado permitido
-- ⚠️ Incluir aviso de copyright
-- ⚠️ Incluir licencia en copias
 
 ---
 
