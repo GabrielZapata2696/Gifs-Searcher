@@ -3,6 +3,7 @@ import { GifsService } from '../../services/gifs.service';
 
 @Component({
   selector: 'gifs-search-box',
+  imports: [],
   templateUrl: './search-box.component.html',
   styleUrl: './search-box.component.scss'
 })

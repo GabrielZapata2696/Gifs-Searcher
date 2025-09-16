@@ -15,7 +15,9 @@
 </div> -->
 
 <div class="row">
-  <div class="col-md-3 col-sm-6" *ngFor="let gif of gifList">
-    <gifs-card [gif]="gif"></gifs-card>
-  </div>
+  @for (gif of gifList; track gif.id) {
+    <div class="col-md-3 col-sm-6">
+      <gifs-card [gif]="gif"></gifs-card>
+    </div>
+  }
 </div>
